@@ -1,0 +1,21 @@
+#subbtn:hover {
+  box-shadow: 5px 5px 10px;
+  background-color: gray;
+}
+body {
+  background-color: rgb(95, 158, 137);
+}
+#countlabel {
+  display: block;
+  font-size: 50px;
+}
+#checklabel {
+  color: red;
+  text-shadow: 2px 2px 5px black;
+}
+button:hover {
+  box-shadow: 5px 5px 5px;
+}
+#guess:hover {
+  box-shadow: 5px 5px 5px;
+}
