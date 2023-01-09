@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.header {
+  position: sticky;
+  top: 0;
+
+  background-color: black;
+  padding: 20px;
+  height: 50px;
+}
+.header img {
+  padding: 12px 0px;
+}
+body {
+  background-color: #121412;
+}
+.NavBar {
+  color: aliceblue;
+  background-color: black;
+  float: right;
+}
+.NavBar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+.NavBar li a {
+  text-decoration: none;
+  padding: 5px 5px;
+  color: aliceblue;
+}
+.NavBar li a:hover {
+  color: red;
+}
+.NavBar li input {
+  border-radius: 10px;
+  padding: 1px;
+  background: none;
+
+  outline: none;
+  color: aliceblue;
+  width: 130px;
+  position: relative;
+  right: 20px;
+}
+td {
+  color: rgb(238, 239, 239);
+}
+p {
+  color: rgb(238, 239, 239);
+}
+h2 {
+  color: rgb(238, 239, 239);
+}
+th {
+  color: rgb(238, 239, 239);
+}
+
+.footer {
+  background-color: black;
+  height: 220px;
+}
+.footer li {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px 0;
+}
+.footer li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer li a:hover {
+  color: red;
+}
+.footer a {
+  padding: 5px 0;
+}
+.footer td a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 5px 0px;
+}
+.footer td a:hover {
+  color: red;
+}
+.footer th {
+  padding: 20px 0px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.footer th:hover {
+  color: aqua;
+}
+.fa-magnifying-glass:before,
+.fa-search:before {
+  content: "\f002";
+  width: 100%;
+  color: red;
+}
