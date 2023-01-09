@@ -52,10 +52,12 @@ td {
   color: rgb(238, 239, 239);
 }
 p {
+  padding: 5px;
   color: rgb(238, 239, 239);
 }
 h2 {
   color: rgb(238, 239, 239);
+  padding: 10px;
 }
 th {
   color: rgb(238, 239, 239);
@@ -103,3 +105,22 @@ th {
   width: 100%;
   color: red;
 }
+.ImgContainer {
+  width: 400px;
+}
+/* *******grig***** */
+.container {
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.container > div {
+  margin: 20px;
+  padding: 10px;
+}
+section {
+  padding: 10px;
+}
+/* .container img:hover {
+  width: 450px;
+} */
