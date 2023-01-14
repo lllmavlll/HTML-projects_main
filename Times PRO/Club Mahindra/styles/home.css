@@ -1,0 +1,53 @@
+#header {
+  background-image: url("../Assets/hero.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+}
+body {
+  margin: 20px;
+}
+.overlay {
+  width: auto;
+  height: 400px;
+  background-color: black;
+  opacity: 0.5;
+}
+#div-flex {
+  display: flex;
+  margin: 10px;
+}
+#div-flex > img {
+  align-items: flex-start;
+  margin: 10px;
+}
+#nav-bar {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 20px;
+}
+#nav-bar > a {
+  margin: 10px;
+  padding: 10px;
+  /* color: antiquewhite; */
+}
+.display-3,
+.display-4 {
+  position: relative;
+  /* color: antiquewhite; */
+  /* font-weight: bold; */
+  z-index: 4;
+  padding: 0 15px;
+}
+.section-head {
+  color: rgb(53, 84, 122);
+}
+.img-con {
+  background-image: url(../Assets/Gym\ Pool.jpg);
+  height: 50vh;
+  width: 20vw;
+}
+.img-con > p {
+  color: antiquewhite;
+}

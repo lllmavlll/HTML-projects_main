@@ -8,8 +8,8 @@
 header {
   position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
   align-items: center;
   z-index: 10;
   display: flex;
@@ -35,7 +35,7 @@ header li a:hover {
 header .Nav {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 header .search {
   background: transparent;
@@ -184,6 +184,9 @@ section {
 .conhd h1:hover {
   color: red;
   text-shadow: 5px 5px 5px rgb(46, 41, 41);
+}
+div .modelsImg img:hover {
+  transition: ;
 }
 @media (max-width: 991px) {
   header {
