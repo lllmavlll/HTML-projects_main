@@ -1,16 +1,21 @@
 #header {
   background-image: url("../Assets/hero.jpg");
-  height: 100%;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: antiquewhite;
+  background-color: black;
+}
+header {
+  background-color: black;
+  margin: 20px;
 }
 body {
   margin: 20px;
 }
 .overlay {
   width: auto;
-  height: 400px;
+  height: 60vh;
   background-color: black;
   opacity: 0.5;
 }
@@ -30,7 +35,7 @@ body {
 #nav-bar > a {
   margin: 10px;
   padding: 10px;
-  /* color: antiquewhite; */
+  color: antiquewhite;
 }
 .display-3,
 .display-4 {
@@ -48,6 +53,53 @@ body {
   height: 50vh;
   width: 20vw;
 }
+.img-contain {
+  display: flex;
+  height: 40vh;
+  width: 100vw;
+
+  width: 100vw;
+  grid-template-rows: 5 1fr;
+}
+.thumbnail {
+  width: 18%;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+.thumbnail p {
+  color: antiquewhite;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  padding: 90% 0;
+}
+.thumbnail:nth-child(1) {
+  background-image: url(../Assets/Gym\ Pool.jpg);
+}
+.thumbnail:nth-child(2) {
+  background-image: url(../Assets/Cooking\ with\ chef.jpg);
+}
+.thumbnail:nth-child(3) {
+  background-image: url(../Assets/Lazy\ River.jpg);
+}
+.thumbnail:nth-child(4) {
+  background-image: url(../Assets/Candlelight\ Dinner.jpg);
+}
+.thumbnail:nth-child(5) {
+  background-image: url(../Assets/Carnival.jpg);
+}
 .img-con > p {
   color: antiquewhite;
+}
+section {
+  margin: 40px;
+}
+.row {
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  column-gap: 20px;
 }
