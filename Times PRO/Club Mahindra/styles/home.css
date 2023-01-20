@@ -8,7 +8,7 @@
 }
 header {
   background-color: black;
-  margin: 20px;
+  /* margin: 20px; */
 }
 body {
   margin: 20px;
@@ -22,6 +22,7 @@ body {
 #div-flex {
   display: flex;
   margin: 10px;
+  justify-content: space-between;
 }
 #div-flex > img {
   align-items: flex-start;
@@ -36,6 +37,9 @@ body {
   margin: 10px;
   padding: 10px;
   color: antiquewhite;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
 }
 .display-3,
 .display-4 {
@@ -46,20 +50,16 @@ body {
   padding: 0 15px;
 }
 .section-head {
-  color: rgb(53, 84, 122);
+  color: rgb(64, 134, 219);
 }
-.img-con {
-  background-image: url(../Assets/Gym\ Pool.jpg);
-  height: 50vh;
-  width: 20vw;
-}
+
 .img-contain {
   display: flex;
   height: 40vh;
-  width: 100vw;
+  width: 90vw;
 
-  width: 100vw;
-  grid-template-rows: 5 1fr;
+  /* width: 100vw; */
+  /* grid-template-rows: 5 1fr; */
 }
 .thumbnail {
   width: 18%;
@@ -103,3 +103,19 @@ section {
   background-position-x: center;
   column-gap: 20px;
 }
+.row p {
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: center;
+}
+#div-flex1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.div-im {
+  display: flex;
+
+  align-items: center;
+}
+
+/* Mahesh KN */
