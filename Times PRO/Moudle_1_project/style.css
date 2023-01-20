@@ -153,6 +153,14 @@ footer .row .col i {
   width: 100%;
   overflow: hidden;
 }
+.hero h1 {
+  padding: 30px 0 0 0;
+  font-size: 50px;
+  font-weight: 900;
+}
+.hero h1:hover {
+  box-shadow: 5px 5px 5px grey;
+}
 .hero img {
   width: 100%;
   height: 100%;
@@ -251,6 +259,15 @@ footer .row .col i {
     display: block;
     height: 50%;
   }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .promotion-mac h1 {
+    font-size: 28px;
+  }
+  .promotion-ipad h1 {
+    font-size: 32px;
+  }
   .navbar {
     position: relative;
     align-items: center;
@@ -261,6 +278,7 @@ footer .row .col i {
   .navbar li {
     padding: 0 10px;
     display: flex;
+    font-size: 18px;
   }
   .searchbox {
     width: 90%;
