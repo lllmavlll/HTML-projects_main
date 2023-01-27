@@ -131,13 +131,7 @@
       </form>
     </div>
 
-    <p>
-      <img
-        src="https://www.google.com/search?q=trees&oq=trees&aqs=chrome.0.69i59.1892j0j1&sourceid=chrome&ie=UTF-8&safe=strict"
-        alt=""
-      />
-    </p>
-    <!-- *****POSITIONS***** -->
+    x<!-- *****POSITIONS***** -->
 
     <div class="pos">
       CSS positioning
@@ -223,11 +217,11 @@
               </ul>
             </td>
             <td>
-              <img src="./facebook.png" width="20px" height="20px" />
-              <a href="https://www.facebook.com/">Facebook</a><br />
-              <img src="./twitter.png" width="20px" height="20px" />
+              <!-- <img src="./facebook.png" width="20px" height="20px" /> -->
+              <!-- <a href="https://www.facebook.com/">Facebook</a><br /> -->
+              <!-- <img src="./twitter.png" width="20px" height="20px" /> -->
               <a href="#">Twitter</a><br />
-              <img src="./insta.jpg" width="20px" height="20px" />
+              <!-- <img src="./insta.jpg" width="20px" height="20px" /> -->
               <a href="#">Instagram</a><br />
             </td>
           </tr>
@@ -292,5 +286,62 @@
         rows="3"
       ></textarea>
     </div>
+
+    <!-- ********javascript****** -->
+    <h1>Welcometo java script</h1>
+    <p id="pname"></p>
+    <script>
+      // var name = prompt("enter your name");
+      let a1 = "mahesh";
+      let b2 = 34;
+      let c3 = true;
+      console.log(a1);
+      console.log(b2);
+      console.log(c3);
+
+      document.getElementById("pname").innerHTML = name;
+      // document.write("hfiaGADSGDSGFDG" + a1 + b2);
+
+      // const num1 = 1234;
+      // const num2 = 4321;
+      // document.write("this is const " + num1 + num2);
+      // document.writeln("<br/>this is const " + num1 + num2);
+      // var array = ["sjhjsh", "kjskhcs0,", "jbsjcbsjb"];
+      // var person = { name: "mahesh", age: 21 };
+      // console.log(array);
+      // console.log(person);
+      var num1 = 100;
+      var num2 = 200;
+      // addition ans sub
+      document.write("add  " + num1 + " , " + num2);
+      document.write("<br>addition  " + (num1 + num2));
+      document.write("<br>subtraction  " + (num1 - num2));
+      // multiplcatio
+      document.write("<br>division  " + num1 / num2);
+      document.write("<br>module  " + (num1 % num2));
+      // unary operators
+      document.write("<br>pre increment  " + ++num1);
+      document.write("<br>post increment  " + num1++);
+      document.write("<br>pre increment  " + num1);
+      num1 += 200;
+
+      document.write("<br>pre assignment  " + num1);
+      var s = 3;
+      s **= 3;
+      document.write("<br>cube is  " + s);
+      // if else
+      if (num1 > num2) document.write("<br>num1 is greater");
+      console.log("num1 is greater");
+
+      // $$ || !
+      let a = 10,
+        b = 20,
+        c = 30;
+      if (a > b && a > c)
+        // true && true
+        console.log("a is the greatest of all!");
+      else if (b > a && b > c) console.log("b is the greatest of all!");
+      else console.log("c is the greatest of all!");
+    </script>
   </body>
 </html>

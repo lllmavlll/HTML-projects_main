@@ -57,6 +57,8 @@ body {
   display: flex;
   height: 40vh;
   width: 90vw;
+  justify-content: center;
+  /* align-items: center; */
 
   /* width: 100vw; */
   /* grid-template-rows: 5 1fr; */
@@ -117,5 +119,9 @@ section {
 
   align-items: center;
 }
-
+@media (max-width: 768px) {
+  #div-flex1 {
+    grid-template-columns: auto auto;
+  }
+}
 /* Mahesh KN */
