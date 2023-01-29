@@ -61,3 +61,10 @@ document.write("<br/>Shift method " + arr.shift());
 arr.push(900);
 document.write("<br/>after push  " + arr);
 document.write("<br/>after pop  " + arr.pop());
+
+var array = [2, 3, 5, 8, 9, 12, 15];
+
+let sqr = array.map((a) => {
+  return a * a;
+});
+document.write("<br/>square of the array is " + sqr);
