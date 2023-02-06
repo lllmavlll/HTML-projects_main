@@ -62,9 +62,12 @@ arr.push(900);
 document.write("<br/>after push  " + arr);
 document.write("<br/>after pop  " + arr.pop());
 
-var array = [2, 3, 5, 8, 9, 12, 15];
+var array = [8, 9, 12, 3, 2, 5];
 
-let sqr = array.map((a) => {
-  return a * a;
-});
-document.write("<br/>square of the array is " + sqr);
+// let sqr = array.map((a) => {
+//   return a * a;
+// });
+// document.write("<br/>square of the array is " + sqr);
+f = array.reverse();
+function reverse(array
+  )
