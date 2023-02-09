@@ -1,4 +1,4 @@
-//-------------Fibonacci series n=10
+//-------------Fibonacci series n=10-------------//
 
 var a = 0;
 b = 1;
@@ -9,3 +9,5 @@ var fib = a + b; //0 + 1
 console.log(fib);
 a = b; // a value becomes b
 b = fib; // b value becomes fib
+
+//---------Mahesh KN FSWD05---------------//
