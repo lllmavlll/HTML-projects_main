@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <style>
+      #diveffect {
+        height: 100px;
+        width: 300px;
+        background-color: aqua;
+      }
+      #diveffect1 {
+        height: 100px;
+        width: 300px;
+        background-color: aquamarine;
+      }
+      #diveffect2 {
+        height: 100px;
+        width: 300px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Jquery</h1>
+    <p id="p-tag">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, illo,
+      nesciunt magnam, quo maxime quod culpa porro enim distinctio totam ducimus
+      rem nihil doloribus voluptate rerum itaque nobis consectetur aspernatur.
+    </p>
+    <p id="p2">afbjshdvhjsdhsdsdhsddsbvkdsvsbdv</p>
+    <input type="button" id="btn" value="click me" />
+    <div id="diveffect">div1</div>
+    <br />
+    <div id="diveffect1">div2</div>
+    <br />
+    <div id="diveffect2">div3</div>
+    <script>
+      //   function hide() {
+      //     document.getElementById("p-tag").style.visibility = "hidden";
+      //   }
+      //   $(document).ready(
+      //     $("#btn").click(function () {
+      //       $("#p-tag").toggle();
+      //     })
+      //   );
+      //   $(document).ready(
+      //     $("#diveffect1").animate({
+      //       right: "250px",
+      //     })
+      //   );
+      $(document).ready(
+        $("#diveffect").fadeOut(3000),
+        $("#diveffect1").animate({ width: "800px" }, 3000),
+        $("#diveffect2").animate({ height: "500px" }, 3000),
+        $("#btn").click(function () {
+          $("#p-tag").toggle();
+        }),
+
+        $("h1").mouseenter(function () {
+          $("h1").hide();
+        }),
+        $("#diveffect2").append("<p>hello!</p>")
+      );
+    </script>
+    <script src="./stack.js"></script>
+  </body>
+</html>

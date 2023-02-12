@@ -11,34 +11,32 @@ console.log("you're ", age, " years old");
 document.getElementById("p1").innerHTML = "Hello " + fname;
 document.getElementById("p2").innerHTML = "You're " + age + " years old";*/
 
-/*let students = 30;
+// let students = 30;
 
-//students = students + 1;
+// students = students + 1;
 
-//students -= 2;
+// // students -= 2;
 
-result = students + 2 + 3 + (4 + 5);
+// result = students + 2 + 3 + (4 + 5);
 
-console.log(result);
-*/
+// console.log(result);
 
 //let fname = window.prompt("enter your name");
 
 // console.log(fname);
-/*let username;
-document.getElementById("button").onclick = function () {
-  username = document.getElementById("fname").value;
-  console.log(username);
-  document.getElementById("label").innerHTML = "hello " + username;
-};
+// let username;
+// document.getElementById("button").onclick = function () {
+//   username = document.getElementById("fname").value;
+//   console.log(username);
+//   document.getElementsByTagName("P").innerHTML = "hello " + username;
+// };
 
-//////////////////DATA CONVEERTER
+// //////////////////DATA CONVEERTER
 
-let age = window.prompt("how old a re you?");
-age = Number(age);
-age += 1;
-console.log("happy birthday! you're  ", age, " years old21");
-*/
+// let age = window.prompt("how old a re you?");
+// age = Number(age);
+// age += 1;
+// console.log("happy birthday! you're  ", age, " years old21");
 
 //////////////////// js CONST
 /*const PI = 3.14159; 
@@ -383,7 +381,7 @@ document.getElementById("mylabel").innerHTML = bill;
 //console.log(mynum);
 
 /////////////////////////Number guessing game
-/*
+
 const answer = Math.floor(Math.random() * 10 + 1);
 
 let guesses = 0;
@@ -400,5 +398,5 @@ document.getElementById("submit").onclick = function () {
     alert("Too large");
   }
 };
-*/
+
 ////////////////
