@@ -22,22 +22,32 @@
         width: 300px;
         background-color: grey;
       }
+      #container {
+        width: 40%;
+        height: 250px;
+        background-color: grey;
+      }
     </style>
   </head>
   <body>
     <h1>Welcome to Jquery</h1>
+
     <p id="p-tag">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, illo,
       nesciunt magnam, quo maxime quod culpa porro enim distinctio totam ducimus
       rem nihil doloribus voluptate rerum itaque nobis consectetur aspernatur.
     </p>
-    <p id="p2">afbjshdvhjsdhsdsdhsddsbvkdsvsbdv</p>
+    <p id="p2">
+      quo maxime quod culpa porro enim distinctio totam ducimus rem nihil
+      doloribus
+    </p>
     <input type="button" id="btn" value="click me" />
     <div id="diveffect">div1</div>
     <br />
     <div id="diveffect1">div2</div>
     <br />
     <div id="diveffect2">div3</div>
+    <br />
     <script>
       //   function hide() {
       //     document.getElementById("p-tag").style.visibility = "hidden";
@@ -52,20 +62,19 @@
       //       right: "250px",
       //     })
       //   );
-      $(document).ready(
-        $("#diveffect").fadeOut(3000),
-        $("#diveffect1").animate({ width: "800px" }, 3000),
-        $("#diveffect2").animate({ height: "500px" }, 3000),
-        $("#btn").click(function () {
-          $("#p-tag").toggle();
-        }),
+      // $(document).ready(
+      //   $("#diveffect").fadeOut(3000),
+      //   $("#diveffect1").animate({ width: "800px" }, 3000),
+      //   $("#diveffect2").animate({ height: "500px" }, 3000),
+      //   $("#btn").click(function () {
+      //     $("#p-tag").toggle();
+      //   }),
 
-        $("h1").mouseenter(function () {
-          $("h1").hide();
-        }),
-        $("#diveffect2").append("<p>hello!</p>")
-      );
+      //   $("h1").mouseenter(function () {
+      //     $("h1").hide();
+      //   }),
+      //   $("#diveffect2").append("<p>hello!</p>")
+      // );
     </script>
-    <script src="./stack.js"></script>
   </body>
 </html>

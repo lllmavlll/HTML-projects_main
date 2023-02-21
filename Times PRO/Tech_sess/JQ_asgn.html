@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <style>
+      body {
+        background-color: lightcyan;
+      }
+      #container,
+      #container2 {
+        padding: 15px;
+        border: 2px solid;
+        width: 30%;
+        height: 200px;
+        background-color: lightgrey;
+        overflow: auto;
+      }
+      #div,
+      #div2,
+      #div3 {
+        padding: 15px;
+        border: 2px solid;
+        width: 50px;
+        height: 100px;
+        background-color: rgb(180, 206, 172);
+      }
+      #div4 {
+        padding: 15px;
+        border: 2px solid;
+        width: 250px;
+        height: 200px;
+        background-color: rgb(226, 215, 126);
+      }
+      #diveffect {
+        height: 100px;
+        width: 300px;
+        background-color: tan;
+      }
+      #diveffect1 {
+        height: 100px;
+        width: 300px;
+        background-color: lightcoral;
+      }
+      #diveffect2 {
+        height: 100px;
+        width: 300px;
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to jquery</h1>
+
+    <h2>browser Events</h2>
+    <div id="container">
+      <h3>.Scroll</h3>
+      The syntax of JavaScript does not suit everyone’s needs. Different people
+      want different features. That’s to be expected, because projects and
+      requirements are different for everyone. So, recently a plethora of new
+      languages appeared, which are transpiled (converted) to JavaScript before
+      they run in the browser. Modern tools make the transpilation very fast and
+      transparent, actually allowing developers to code in another language and
+      auto-converting it “under the hood”. The syntax of JavaScript does not
+      suit everyone’s needs. Different people want different features. That’s to
+      be expected, because projects and requirements are different for everyone.
+      So, recently a plethora of new languages appeared, which are transpiled
+      (converted) to JavaScript before they run in the browser. Modern tools
+      make the transpilation very fast and transparent, actually allowing
+      developers to code in another language and auto-converting it “under the
+      hood”. The syntax of JavaScript does not suit everyone’s needs. Different
+      people want different features. That’s to be expected, because projects
+      and requirements are different for everyone. So, recently a plethora of
+      new languages appeared, which are transpiled (converted) to JavaScript
+      before they run in the browser. Modern tools make the transpilation very
+      fast and transparent, actually allowing developers to code in another
+      language and auto-converting it “under the hood”. The syntax of JavaScript
+      does not suit everyone’s needs. Different people want different features.
+      That’s to be expected, because projects and requirements are different for
+      everyone. So, recently a plethora of new languages appeared, which are
+      transpiled (converted) to JavaScript before they run in the browser.
+      Modern tools make the transpilation very fast and transparent, actually
+      allowing developers to code in another language and auto-converting it
+      “under the hood”.
+    </div>
+    <br />
+    <hr />
+    <br />
+    <h2>mouse Events</h2>
+    <br />
+    <div id="para1">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis sint
+      voluptas reprehenderit repudiandae modi. Earum, nulla nisi adipisci soluta
+      laboriosam, voluptatem quidem et voluptatibus modi,
+    </div>
+    <br />
+    <button id="btn">click here to hid the above para</button>
+    <br />
+    <hr />
+    <br />
+    <div id="para2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis sint
+      voluptas reprehenderit repudiandae modi. Earum, nulla nisi adipisci soluta
+      laboriosam,
+    </div>
+    <br />
+    <button id="btn2">click here to toggle</button>
+    <br />
+    <hr />
+    <br />
+    <div id="div">fadeouts when hover on it</div>
+    <br />
+    <hr />
+    <br />
+    <div id="div2">fade toggle</div>
+    <br />
+    <hr />
+    <br /><br />
+    <div id="div3">click to change color</div>
+
+    <br />
+    <hr />
+    <br />
+    <h2>keyboard Events</h2>
+    <br />
+    <div id="div4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique,
+      fugiat quam! Quos, officia saepe! Dignissimos aut, veritatis odio delectus
+      temporibus eius dolores eos sapiente velit. Et itaque iste veniam quam?
+    </div>
+    <h2>form Events</h2>
+    <br />
+    <form action="#" id="frm">
+      <label for="txt">user name</label>
+      <input type="text" id="txt" />
+      <br />
+      <br />
+      <label for="pas">password</label>
+      <input type="password" id="pas" />
+      <br />
+      <br />
+      <label for="dob">DOB</label>
+      <input type="date" id="dob" />
+      <br />
+      <br />
+      <button id="btn2">submit</button>
+    </form>
+    <br />
+    <hr />
+
+    <h1>Effects</h1>
+    <h2>slide methods</h2>
+    <div id="container2">
+      <h3>slide</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium
+      expedita temporibus facere repudiandae ipsa excepturi. Doloremque quasi
+      non voluptatibus, magnam enim consequatur repudiandae tempore voluptas
+      quam, at impedit voluptate. Tempora consequuntur magnam aliquid accusamus
+      praesentium, natus possimus consectetur perferendis ab nesciunt totam
+      similique culpa dolore error sapiente provident quod quia aliquam et porro
+      expedita. Rerum repudiandae qui quas nesciunt? Lorem ipsum dolor sit amet
+      consectetur, adipisicing elit. Autem consequatur nam nostrum fuga
+      reprehenderit sunt praesentium dolorem nihil dolore cum sapiente,
+      voluptates vitae voluptatum doloremque repellat odit cumque expedita
+      asperiores.
+    </div>
+    <br />
+    <button id="btn11">slideUp</button>
+    <button id="btn12">slideDown</button>
+    <button id="btn13">slideToggle</button>
+    <br />
+    <hr />
+    <br />
+    <div id="diveffect">div1</div>
+    <br />
+    <div id="diveffect1">div2</div>
+    <br />
+    <div id="diveffect2">div3</div>
+    <br />
+    <button id="Ebtn">Click to animate</button>
+    <input type="text" name="txtbox" id="inputbox" />
+    <div id="res"></div>
+    <script>
+      // let inputbox = document.getElementById("inputbox");
+      // inputbox.addEventListener("keyup", () => {
+      //   document.getElementById("res").innerText = inputbox.value;
+      // });
+      //*******browser event
+      $(document).ready(function () {
+        $("#container").scroll(function () {
+          //----- triggers when the div scrolled
+          console.log("DIV  is scrolling");
+        });
+        $(window).resize(function () {
+          //------- triggers when the window ia resized
+          console.log("window is resizing");
+        });
+        //**mouse events
+        $("#btn").click(function () {
+          $("#para1").hide();
+        });
+
+        $("#btn2").click(function () {
+          $("#para2").toggle();
+        });
+
+        $("#div").hover(function () {
+          $(this).fadeOut(2000);
+        });
+        //-------hover
+        $("#div2").hover(function () {
+          $(this).fadeToggle(2000);
+        });
+        //------------click
+        $("#div3").click(function () {
+          $(this).css("background-color", "aquamarine");
+        });
+        //---------------double click
+        $("#div3").dblclick(function () {
+          $(this).css("background-color", "aqua");
+        });
+        H;
+        //---------------right click
+        $("#div3").contextmenu(function () {
+          $(this).css("background-color", "lightyellow");
+        });
+        //-------------mouse enter
+        $("#div3").mouseenter(function () {
+          $(this).css("background-color", "lightpink");
+        });
+        //------------mouse leave
+        $("#div3").mouseleave(function () {
+          $(this).css("background-color", "aquamarine");
+        });
+      });
+      //********keyboard events
+      $(document).ready(function () {
+        $("body").keypress(function () {
+          $(this).css("background-color", "tan");
+        });
+        $("body").keydown(function () {
+          $(this).css("background-color", "lightblue");
+        });
+        $("body").keyup(function () {
+          $(this).css("background-color", "lightcyan");
+        });
+      });
+      //**********form events
+      $(document).ready(function () {
+        $("#txt,#pas").focus(function () {
+          $(this).css("background-color", "aqua");
+        });
+        $("#txt,#pas").blur(function () {
+          $(this).css("background-color", "");
+        });
+        $("#txt,#pas").select(function () {
+          $(this).css("background-color", "aquamarine");
+        });
+        $("#dob").change(function () {
+          $(this).css("background-color", "pink");
+        });
+        $("#frm").submit(function () {
+          alert("form submitted!");
+        });
+      });
+      //--------slide effects
+      $(document).ready(function () {
+        $("#btn11").click(function () {
+          $("#container2").slideUp(2000);
+        });
+        $("#btn12").click(function () {
+          $("#container2").slideDown(2000);
+        });
+        $("#btn13").click(function () {
+          $("#container2").slideToggle(3000);
+        });
+        //-----animate
+        $("#Ebtn").click(function () {
+          $("#diveffect").fadeOut(3000),
+            $("#diveffect1").animate({ width: "800px" }, 3000),
+            $("#diveffect2").animate({ height: "500px" }, 3000);
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<!-- done by Mahesh KN -->
